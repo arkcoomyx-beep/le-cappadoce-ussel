@@ -402,13 +402,16 @@ a {
 
 /* ── Highlights ── */
 
+.highlights-section {
+  background: var(--bg-dark);
+  padding: 2.5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
 .highlights {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
-  margin-top: -3rem;
-  position: relative;
-  z-index: 10;
 }
 
 .highlight {
@@ -1054,6 +1057,10 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .highlights {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .about__image img {
     height: 300px;
   }
@@ -1087,6 +1094,10 @@ a {
 }
 
 @media (max-width: 500px) {
+  .highlights {
+    grid-template-columns: 1fr;
+  }
+
   .gallery {
     grid-template-columns: 1fr;
   }

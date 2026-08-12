@@ -242,9 +242,8 @@ a {
 }
 
 .logo__image {
-  height: 52px;
+  height: 48px;
   width: auto;
-  object-fit: contain;
 }
 
 .hero__logo {
@@ -252,7 +251,6 @@ a {
   width: 100%;
   height: auto;
   margin: 0 auto 0.5rem;
-  object-fit: contain;
   filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
 }
 
@@ -858,7 +856,7 @@ a {
 }
 
 .logo__image--footer {
-  height: 44px;
+  height: 40px;
 }
 
 .footer__tagline {

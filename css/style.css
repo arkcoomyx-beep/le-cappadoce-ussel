@@ -244,14 +244,13 @@ a {
 .logo__image {
   height: 52px;
   width: auto;
-  display: block;
 }
 
 .hero__logo {
   max-width: min(420px, 85vw);
   height: auto;
   margin: 0 auto 0.5rem;
-  display: block;
+  filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
 }
 
 .hero__title {

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Le Cappadoce — Restaurant de spécialités turques à Ussel. Kebab, assiettes, tacos, burgers. Depuis 2018.">
+  <title>Le Cappadoce — Restaurant · Ussel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#accueil" class="logo logo--img">
+        <img src="images/logo.jpg" alt="Le Cappadoce" class="logo__image" onerror="this.onerror=null;this.src='images/logo.svg';">
+      </a>
+      <nav class="nav">
+        <a href="#accueil" class="nav__link">Accueil</a>
+        <a href="#a-propos" class="nav__link">À propos</a>
+        <a href="#menu" class="nav__link">Menu</a>
+        <a href="#galerie" class="nav__link">Galerie</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="tel:+33555967964" class="nav__cta">Commander</a>
+      </nav>
+      <button class="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section id="accueil" class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <div class="hero__badge">
+        <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        4,8 / 5 sur Google Maps
+      </div>
+      <img src="images/logo.jpg" alt="Le Cappadoce" class="hero__logo" onerror="this.onerror=null;this.src='images/logo.svg';">
+      <p class="hero__since">Depuis 2018</p>
+      <p class="hero__tagline">Spécialités turques &amp; restauration rapide</p>
+      <p class="hero__subtitle">Kebab · Assiettes · Tacos · Burgers · Sur place ou à emporter</p>
+      <div class="hero__actions">
+        <a href="#menu" class="btn btn--primary">Voir la carte</a>
+        <a href="tel:+33555967964" class="btn btn--outline">05 55 96 79 64</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container highlights">
+    <div class="highlight">
+      <div class="highlight__value">4,8/5</div>
+      <div class="highlight__label">Note Google Maps</div>
+    </div>
+    <div class="highlight">
+      <div class="highlight__value">Généreux</div>
+      <div class="highlight__label">Assiettes copieuses</div>
+    </div>
+    <div class="highlight">
+      <div class="highlight__value">Turc</div>
+      <div class="highlight__label">Spécialités authentiques</div>
+    </div>
+    <div class="highlight">
+      <div class="highlight__value">Ussel</div>
+      <div class="highlight__label">3 Rue de la Liberté</div>
+    </div>
+  </div>
+
+  <section id="a-propos" class="section">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Notre histoire</span>
+        <h2 class="section__title">Bienvenue au Cappadoce</h2>
+        <p class="section__desc">Depuis 2018, nous vous accueillons au cœur d'Ussel avec des recettes turques généreuses, une viande bien assaisonnée et un accueil chaleureux.</p>
+      </div>
+      <div class="about">
+        <div class="about__image">
+          <img src="images/interieur.jpg" alt="Salle du restaurant Le Cappadoce">
+        </div>
+        <div class="about__text">
+          <h3>Une ambiance moderne et conviviale</h3>
+          <p>Le Cappadoce, c'est l'alliance d'une cuisine turque traditionnelle et d'un cadre contemporain : murs vert lime, mobilier épuré et une équipe aux petits soins.</p>
+          <p>Que ce soit pour un kebab sur le pouce, une assiette généreuse ou nos créations burgers comme le « Le Black », vous trouverez votre bonheur à prix doux.</p>
+          <ul class="about__features">
+            <li>Viande bien assaisonnée</li>
+            <li>Portions généreuses</li>
+            <li>Sauce fromagère maison</li>
+            <li>Sur place et à emporter</li>
+            <li>Bon rapport qualité-prix</li>
+            <li>Accueil sympathique</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Nos signatures</span>
+        <h2 class="section__title">Spécialités maison</h2>
+      </div>
+      <div class="specials">
+        <article class="special-card">
+          <img src="images/plat-assiette.jpg" alt="Assiette kebab">
+          <div class="special-card__overlay">
+            <h3 class="special-card__name">Assiettes</h3>
+            <p class="special-card__desc">Kebab, köfte, escalope, accompagnées de frites, riz ou boulgour</p>
+          </div>
+        </article>
+        <article class="special-card">
+          <img src="images/plat-burger-black.jpg" alt="Burger Le Black">
+          <div class="special-card__overlay">
+            <h3 class="special-card__name">Le Black</h3>
+            <p class="special-card__desc">Burger au pain noir à l'encre de seiche, notre signature</p>
+          </div>
+        </article>
+        <article class="special-card">
+          <img src="images/plat-panini.jpg" alt="Paninis et frites">
+          <div class="special-card__overlay">
+            <h3 class="special-card__name">Kebab &amp; Paninis</h3>
+            <p class="special-card__desc">Classiques revisités avec oignons frits et sauces maison</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Carte</span>
+        <h2 class="section__title">Notre menu</h2>
+        <p class="section__desc">Consultez nos cartes officielles. Cliquez sur une vignette pour afficher la carte en grand, ou sur l'image principale pour l'agrandir.</p>
+      </div>
+
+      <div class="menu-viewer">
+        <nav class="menu-viewer__nav" aria-label="Cartes du menu">
+          <button class="menu-viewer__tab active" data-menu="images/menu-1.jpg">Assiettes &amp; Kebab</button>
+          <button class="menu-viewer__tab" data-menu="images/menu-2.jpg">Burgers &amp; Desserts</button>
+          <button class="menu-viewer__tab" data-menu="images/menu-3.jpg">Salades &amp; Bowls</button>
+          <button class="menu-viewer__tab" data-menu="images/menu-4.jpg">Kebab, Tacos &amp; Burgers</button>
+          <button class="menu-viewer__tab" data-menu="images/menu-5.jpg">Chicken Box &amp; Paninis</button>
+        </nav>
+
+        <figure class="menu-viewer__display" data-lightbox="images/menu-1.jpg">
+          <img src="images/menu-1.jpg" alt="Carte menu Le Cappadoce — Assiettes, Paninis, Kebab, Tacos" id="menu-display" class="menu-viewer__image">
+          <figcaption class="menu-viewer__hint">Cliquer pour agrandir</figcaption>
+        </figure>
+
+        <div class="menu-viewer__thumbs">
+          <button class="menu-viewer__thumb active" data-menu="images/menu-1.jpg" aria-label="Carte 1">
+            <img src="images/menu-1.jpg" alt="">
+          </button>
+          <button class="menu-viewer__thumb" data-menu="images/menu-2.jpg" aria-label="Carte 2">
+            <img src="images/menu-2.jpg" alt="">
+          </button>
+          <button class="menu-viewer__thumb" data-menu="images/menu-3.jpg" aria-label="Carte 3">
+            <img src="images/menu-3.jpg" alt="">
+          </button>
+          <button class="menu-viewer__thumb" data-menu="images/menu-4.jpg" aria-label="Carte 4">
+            <img src="images/menu-4.jpg" alt="">
+          </button>
+          <button class="menu-viewer__thumb" data-menu="images/menu-5.jpg" aria-label="Carte 5">
+            <img src="images/menu-5.jpg" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galerie" class="section section--dark">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">En images</span>
+        <h2 class="section__title">Galerie</h2>
+      </div>
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--large" data-lightbox="images/hero.jpg">
+          <img src="images/hero.jpg" alt="Façade du restaurant Le Cappadoce">
+        </figure>
+        <figure class="gallery__item" data-lightbox="images/interieur.jpg">
+          <img src="images/interieur.jpg" alt="Salle du restaurant">
+        </figure>
+        <figure class="gallery__item" data-lightbox="images/galerie-comptoir.jpg">
+          <img src="images/galerie-comptoir.jpg" alt="Comptoir et cuisine">
+        </figure>
+        <figure class="gallery__item" data-lightbox="images/plat-burger-black.jpg">
+          <img src="images/plat-burger-black.jpg" alt="Burger Le Black">
+        </figure>
+        <figure class="gallery__item" data-lightbox="images/plat-assiette.jpg">
+          <img src="images/plat-assiette.jpg" alt="Assiette kebab">
+        </figure>
+        <figure class="gallery__item gallery__item--wide" data-lightbox="images/plat-panini.jpg">
+          <img src="images/plat-panini.jpg" alt="Paninis et frites">
+        </figure>
+        <figure class="gallery__item" data-lightbox="images/galerie-equipe.jpg">
+          <img src="images/galerie-equipe.jpg" alt="Devanture du restaurant">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="avis" class="section">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Témoignages</span>
+        <h2 class="section__title">Avis clients</h2>
+      </div>
+      <div class="reviews__score">
+        <div class="reviews__score-value">4,8</div>
+        <div class="reviews__score-label">sur 5 · Google Maps</div>
+      </div>
+      <div class="reviews">
+        <blockquote class="review">
+          <div class="review__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          <p class="review__text">Viande très bien assaisonnée et assiettes vraiment généreuses. On ne repart jamais sur la faim.</p>
+          <cite class="review__author">Client Google Maps</cite>
+        </blockquote>
+        <blockquote class="review">
+          <div class="review__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          <p class="review__text">Excellent rapport qualité-prix. L'accueil est toujours sympathique et le cadre est propre et moderne.</p>
+          <cite class="review__author">Client Google Maps</cite>
+        </blockquote>
+        <blockquote class="review">
+          <div class="review__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          <p class="review__text">Le Black burger est excellent. Les sauces maison et les portions généreuses font la différence.</p>
+          <cite class="review__author">Client Google Maps</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section--dark">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Infos pratiques</span>
+        <h2 class="section__title">Nous trouver</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Horaires</h3>
+          <ul class="hours-list">
+            <li><span class="day">Lundi</span> <span class="closed">Fermé</span></li>
+            <li><span class="day">Mardi</span> <span>11h15 – 14h00 / 18h00 – 22h00</span></li>
+            <li><span class="day">Mercredi</span> <span>11h15 – 14h00 / 18h00 – 22h00</span></li>
+            <li><span class="day">Jeudi</span> <span>11h15 – 14h00 / 18h00 – 22h00</span></li>
+            <li><span class="day">Vendredi</span> <span>11h15 – 14h00 / 18h00 – 22h00</span></li>
+            <li><span class="day">Samedi</span> <span>11h15 – 14h00 / 18h00 – 22h00</span></li>
+            <li><span class="day">Dimanche</span> <span>18h00 – 22h00</span></li>
+          </ul>
+        </div>
+        <div class="contact-card">
+          <h3>Contact</h3>
+          <ul class="contact-info">
+            <li>
+              <span class="contact-info__icon" aria-hidden="true">
+                <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <strong>Adresse</strong><br>
+                3 Rue de la Liberté<br>
+                19200 Ussel, France
+              </div>
+            </li>
+            <li>
+              <span class="contact-info__icon" aria-hidden="true">
+                <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </span>
+              <div>
+                <strong>Téléphone</strong><br>
+                <a href="tel:+33555967964">05 55 96 79 64</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-info__icon" aria-hidden="true">
+                <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </span>
+              <div>
+                <strong>Facebook</strong><br>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Le Cappadoce Ussel</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="map-placeholder">
+        <iframe
+          src="https://maps.google.com/maps?q=3+Rue+de+la+Libert%C3%A9+19200+Ussel&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localisation Le Cappadoce Ussel">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer footer--minimal">
+    <div class="container">
+      <div class="footer__brand-row">
+        <a href="#accueil" class="logo logo--img">
+          <img src="images/logo.jpg" alt="Le Cappadoce" class="logo__image logo__image--footer" onerror="this.onerror=null;this.src='images/logo.svg';">
+        </a>
+        <p class="footer__tagline">Spécialités turques à Ussel · Depuis 2018</p>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Le Cappadoce — 3 Rue de la Liberté, 19200 Ussel</span>
+        <nav class="footer__links">
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image agrandie">
+    <button class="lightbox__close" aria-label="Fermer">&times;</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

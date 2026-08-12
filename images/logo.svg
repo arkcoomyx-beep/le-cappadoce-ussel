@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-label="Le Cappadoce Restaurant">
+  <text x="210" y="58" text-anchor="middle" fill="#ffffff" font-family="'Kaushan Script', cursive" font-size="52">Le Cappadoce</text>
+  <text x="355" y="72" fill="#ffffff" font-family="Montserrat, sans-serif" font-size="9" letter-spacing="2">DEPUIS 2018</text>
+  <line x1="95" y1="82" x2="155" y2="82" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  <text x="210" y="88" text-anchor="middle" fill="#2d5a47" font-family="Montserrat, sans-serif" font-size="13" font-weight="600" letter-spacing="6">RESTAURANT</text>
+  <line x1="265" y1="82" x2="325" y2="82" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+</svg>
